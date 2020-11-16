@@ -1,53 +1,87 @@
 
 *{
 	box-sizing: border-box;
-	/*font-size: 110%;*/
+	font-size: 105%;
 }
 
 .row
 {
 	grid-gap: 10px;
 	width: 100%;
+	margin-bottom: 50px;
 }
 
 .col-l-1
 {
-
+	background-color: rgba(245, 215, 110, 1);
 	border: 2px solid blue;
 	margin-left: 30px;
 }
 
 .col-l-2
 {
+	background-color: rgba(0,0,0,0.3);
 	border: 2px solid red;
 	margin-left: 30px;
 }
 
 .col-l-3
 {
+	color: white;
 	border: 2px solid orange;
+	background-color: rgba(36, 37, 42, 1);
 	margin-left: 30px;
-
 }
 
-@media (min-width: 992px)
+@media (min-width : 1192px)
 {
 	.col-l-1
 	{
-		width: 31%;
+		width: 28%;
+		height: 420px;
 		float: left;
 	}
 
 	.col-l-2
 	{
-		width: 31%;
+		width: 28%;
+		height: 420px;
 		display: inline-block;
 		float: left;
 	}
 
 	.col-l-3
 	{
-		width: 31%;
+		width: 28%;
+		height: 420px;
+		display: inline-block;
+		float: left;
+	}
+}
+
+
+
+@media (min-width: 992px) and (max-width : 1390px)
+{
+	.col-l-1
+	{
+		width: 30%;
+		height: 550px;
+		float: left;
+	}
+
+	.col-l-2
+	{
+		width: 30%;
+		height: 550px;
+		display: inline-block;
+		float: left;
+	}
+
+	.col-l-3
+	{
+		width: 30%;
+		height: 550px;
 		display: inline-block;
 		float: left;
 	}
@@ -59,6 +93,7 @@
 	{
 		width: 45%;
 		display: inline-block;
+		height: 500px;
 		float: left;
 	}
 
@@ -66,27 +101,33 @@
 	{
 		width: 45%;
 		display: inline-block;
+		height: 500px;
 		float: left;
 	}
 
 	.col-s-3
 	{
 		width: 94%;
+		height: 400px;
 		margin-top: 30px;
+		margin-bottom: 40px;
 		float: left;
 	}
 }
 
 
-@media (max-width:767px)
+@media (max-width:768px)
 {
 	.col-s-1
 	{
 		width: 94%; 
+		height: 400px;
+		margin-bottom: 40px;
 	}
 
 	.col-s-2
 	{
+		height: 400px;
 		margin-top: 30px;
 		width: 94%;
 	}
@@ -94,6 +135,8 @@
 	.col-s-3
 	{
 		margin-top: 30px;
+		height: 400px;
+		margin-bottom: 40px;
 		width: 94%;
 	}
 }
@@ -101,6 +144,8 @@
 .hed
 {
 	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 
@@ -108,8 +153,8 @@
 {
 	background-color: rgba(0,0,255,0.3);
 	width: 30%;
-	margin-top: -0.3%;
-	margin-right: -0.2%;
+	margin-top: -0.4%;
+	margin-right: -0.4%;
 	border-bottom: 2px solid rgba(0,0,0,1);
 	border-right: 2px solid blue;
 	border-top: 2px solid blue;
@@ -122,15 +167,16 @@
 .section
 {
 	clear: right;
-	padding: 4%;
+	padding: 6%;
 }
+
 .be
 {
 
 	width: 30%;
 	background-color: rgba(255,0,0,0.3);
 	margin-top: -0.3%;
-	margin-right: -.5%;
+	margin-right: -0.5%;
 	border-bottom: 2px solid rgba(0,0,0,1);
 	border-right: 2px solid red;
 	border-top: 2px solid red;
@@ -144,8 +190,8 @@
 {
 	background-color: rgba(255,165,0,0.3);
 	width: 30%;
-	margin-top: -0.3%;
-	margin-right: -0.2%;
+	margin-top: -0.4%;
+	margin-right: -0.4%;
 	border-bottom: 2px solid rgba(0,0,0,1);
 	border-right: 2px solid orange;
 	border-top: 2px solid orange;
